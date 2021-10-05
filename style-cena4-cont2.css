@@ -114,16 +114,14 @@ button:hover {
 
 
 footer {
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 103px;
     bottom: 0;
     margin-bottom: 2px;
     font-family: 'Libre Baskerville', serif;
     font-size: .9rem;
     color: white;
-}
-
-.p-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
