@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/img-cena3_auto_x2.jpg);
+    background-position: top;
+    background-size: cover;
+}
+
+.modal {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 90%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.664);
+}
+
+.main-footer {
+    height: 100%;
+    /* width: 95%; */
+    padding-right: 40px;
+    padding-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.p-main {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.4rem;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+header {
+    display: flex;
+    justify-content: left;
+}
+
+.div-escolha {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btn-undo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    margin-bottom: 30px;
+}
+
+#btn-forward {
+    margin-top: 30px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.685);
+    border: none;
+    color: white;
+    font-size: 1.7rem;
+    padding: 6px;
+    border-radius: 6px;
+    width: 45px;
+    height: 45px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+    transition: linear .3s;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: .9rem;
+    color: white;
+}
